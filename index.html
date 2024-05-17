@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="error">
+            <h1>Number Is Required !</h1>
+        </div>
+        <div class="app">
+            <h1>Counter App</h1>
+            <input type="text" class="inputNumber" name="number" value="1" placeholder="Enter Number" />
+            <div class="addbtn">
+                <button onclick="add()">Add</button>
+            </div>
+            <div class="minusbtn">
+                <button onclick="minus()">Minus</button>
+            </div>
+            <div class="output">
+            <h1></h1>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
